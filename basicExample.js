@@ -3,7 +3,6 @@ const floatDec = -123.45678;
 const negIntDec = -1234567;
 const negFloatDec = -1.346788;
 const num = 144;
-const num = 12;
 const expDec = 10000000000;
 const expDec2 = 0.000001;
 const exponentDec = 5 ** 2;
@@ -169,6 +168,6 @@ const memCheck13 = objectCheck4.f[1].cd[0]['obj']  // should fail
                                                    // logicalCheck24 = 5 > 1 == 9 != 9
                                                    // arrayCheck7 = (['str'] ++ ['tgb'])
                                                    // arrSubs3 = arrayCheck3[0] + arrayCheck3[1]
-                                                   // arrSubs5 = arrayCheck3[1 + 3]
+                                                   //arrSubs5 = arrayCheck3[1]
                                                    //
 

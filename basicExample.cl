@@ -142,5 +142,5 @@ memCheck13 = objectCheck4.f[1].cd[0]['obj']
 // logicalCheck24 = 5 > 1 == 9 != 9
 // arrayCheck7 = (['str'] ++ ['tgb'])
 // arrSubs3 = arrayCheck3[0] + arrayCheck3[1]
-// arrSubs5 = arrayCheck3[1 + 3]
-//
+//arrSubs5 = arrayCheck3[1]
+//cotrlls = 'clean' ++ 1111
