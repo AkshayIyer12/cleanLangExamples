@@ -8,4 +8,4 @@ printStairs h count acc = if (count == h)
 	      	    	     then (acc ++ (produceStep ' ' '#' (h - count) count))
 			     else (printStairs h (count + 1) (acc ++ (produceStep ' ' '#' (h - count) count ++ '\n')))
 
-print (printStairs 5 1 '')
+print (printStairs 10 2 '')
