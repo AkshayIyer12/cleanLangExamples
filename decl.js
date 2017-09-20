@@ -1,16 +1,26 @@
-const a = 123
-const b = 'abcd'
-const c = true
-const d = false
+const a = 123 * 2;
+const b = 'abcd';
+const c = true;
+const d = false;
+const g = '4' + '20';
 const e = [
   1,
   2,
   3
-]
+];
 const f = [
   1,
-  'a',
-  5,
+  a + a,
+  5 + 5,
   'g',
-  true
-]
+  true,
+  [
+    e,
+    '1'
+  ],
+  {
+    1: 22,
+    2: 44
+  }
+];
+console.log(g)
