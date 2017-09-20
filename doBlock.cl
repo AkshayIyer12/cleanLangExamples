@@ -1,10 +1,11 @@
 include node-core
 
-computer a = do
+cde a = do
       g <- getLine 'enter value:'
-      return (a ++ g)
+      let e = g * 2
+      return (a ++ e ++ g)
 
 doBlock = do
-     c <- computer 'abcd'
+     c <- cde 'abcd'
      putLine c
 
